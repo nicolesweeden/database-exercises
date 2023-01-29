@@ -1,4 +1,5 @@
 USE codeup_test_db;
+# go over these again for understanding
 CREATE TABLE albums (
                 id INT UNSIGNED NOT NULL AUTO_INCREMENT,
                 artist VARCHAR(50),
