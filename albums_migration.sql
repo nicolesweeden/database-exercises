@@ -6,7 +6,6 @@ CREATE TABLE albums (
                 name VARCHAR(100),
                 release_date int,
                 sales float,
-                random int,
                 genre VARCHAR(50),
                 PRIMARY KEY (id)
 );
