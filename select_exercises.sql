@@ -9,3 +9,9 @@ Which albums were released in the 1990s
 Which albums had less than 20 million certified sales
 All the albums with a genre of "Rock". Why do these query results not include albums with a genre of "Hard rock" or "Progressive rock"? */
 
+SELECT name FROM albums WHERE artist = 'Pink Floyd';
+SELECT release_date FROM albums WHERE name = 'Sgt. Pepper''s Lonely Hearts Club Band';
+SELECT genre FROM albums WHERE name = 'Nevermind';
+SELECT name FROM albums where release_date BETWEEN  1989 AND 2000;
+SELECT name FROM albums where sales < 20;
+SELECT name FROM albums WHERE genre = 'Rock';
